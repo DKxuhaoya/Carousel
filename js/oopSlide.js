@@ -28,11 +28,11 @@ function Slide(){
        var ollis = ol.children;
        ollis[0].className="current";
        // console.log(ollis.length);
-      // var timer = null;
+      var timer = null;
    
     // 实现自动轮播功能
       function autoplay(){
-          setInterval(function(){
+         timer= setInterval(function(){
       // alert(lis.length);
      
         
