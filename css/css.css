@@ -59,5 +59,6 @@ ul{
     right:0px;
  }
  .current{
+    /* 小圆点样式 */
     background-color: hotpink;
  }
